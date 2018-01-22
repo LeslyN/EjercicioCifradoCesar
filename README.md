@@ -12,7 +12,7 @@ Por ejemplo:
 
     1. Tu programa debe ser capaz de cifrar y descifrar tanto letras mayúsculas como minúsculas. La fórmula para descifrar es: (x - n) % 26
     2. Tu código debe estar compuesto por 2 funciones con los siguientes nombres: cipher y decipher
-    3.  El usuario no debe poder ingresar un campo vacío o que contenga números
+    3. El usuario no debe poder ingresar un campo vacío o que contenga números
 
 ### Lo siguiente es el pseudocódigo del problema:
     function cipher{
@@ -26,14 +26,9 @@ Por ejemplo:
                 si ((letra >= 65 && letra <= 90) || (letra >= 97 && letra <= 122)
 
                     numero_letra = (letra - 65 + 33) % 26 + 65
-                    convertido = String.fromCharCode(numero_letra)
-                    
+                    convertido = String.fromCharCode(numero_letra)    
                 fin si
             fin para
             retorne array1.agregar(converted)
         fin si
     }fin function
-
-
-# Ejercicio---Cifrado-Cesar
-# EjercicioCifradoCesar
