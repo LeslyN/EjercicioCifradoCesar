@@ -4,8 +4,8 @@ Crea una web que pida, por medio de un prompt(), una frase al usuario y devuelva
 
 Por ejemplo:
 
-    *Texto original: ABCDEFGHIJKLMNOPQRSTUVWXYZ
-    *Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG
+    * Texto original: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+    * Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG
 
 
 #### Consideraciones Específicas
